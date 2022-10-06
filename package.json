@@ -1,0 +1,16 @@
+{
+  "name": "31-coming-soon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=4014 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Evgeny",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
