@@ -1,20 +1,28 @@
 body {
-
+   /* text-align: center; */
 }
 
 .container {
-    /* display: inline-block; */
-    width: 100%;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
     /* width: 800px; */
     margin-left: calc((100% - 800px)/2);
 }
 
 /* HEADER */
+header {
+    background-color: blue;
+    
+
+}
+
+
 header > .logo {
     height: 15px;
-    align-content: center;
-    float: right;
-    object-fit: contain;
+    /* align-content: center; */
+    /* float: right; */
+    /* object-fit: contain; */
     /* object-position: top left; */
 }
 
