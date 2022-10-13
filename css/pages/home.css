@@ -1,6 +1,11 @@
 .hero {
     min-height: 100vh;
     text-align: center;
+    background-image: url(../../img/coming-soon-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .hero > .row-short {
     display: flex;
@@ -67,8 +72,8 @@ footer a:hover {
 .bottom-trio > span::after {
     content: '';
     display: inline-block;
-    width: 4px;
-    height: 20px;
+    width: 2px;
+    height: 16px;
     background-color: #fffb;
     position: absolute;
     top: 50%;
@@ -80,6 +85,9 @@ footer a:hover {
 }
 
 @media (max-width: 700px) {
+    .main-title {
+        font-size: 80px;
+    }
     .bottom-trio {
         flex-direction: column;
     }
