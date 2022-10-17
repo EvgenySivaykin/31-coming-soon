@@ -97,3 +97,14 @@ footer a:hover {
         display: none;
     }
 }
+
+.back-to-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* position: relative;
+    top: -60px;
+    right: -200px; */
+    background-color: var(--secondary-color);
+}
+
